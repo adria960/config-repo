@@ -14,4 +14,4 @@ microservices:
   image-service:
     endpoints:
       endpoint:
-        uri: http://IMAGE-SERVICE/images
+        uri: http://IMAGE-SERVICE/images/
