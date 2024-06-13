@@ -7,10 +7,6 @@ eureka:
   instance:
     hostname: localhost
 microservices:
-  gallery-service:
-    endpoints:
-      endpoint:
-        uri: http://GALLERY-SERVICE/gallery
   image-service:
     endpoints:
       endpoint:
