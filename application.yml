@@ -6,8 +6,3 @@ eureka:
     defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
-microservices:
-  image-service:
-    endpoints:
-      endpoint:
-        uri: http://image-service/images/
