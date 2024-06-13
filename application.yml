@@ -1,0 +1,17 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  service-url:
+    defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+microservices:
+  gallery-service:
+    endpoints:
+      endpoint:
+        uri: http://GALLERY-SERVICE/gallery
+  image-service:
+    endpoints:
+      endpoint:
+        uri: http://IMAGE-SERVICE/iamges
